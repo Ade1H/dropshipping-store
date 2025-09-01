@@ -1,0 +1,20 @@
+/* Subtle brand look */
+body { background: #f7f8fa; }
+.navbar-brand { font-weight: 700; letter-spacing: .2px; }
+.card { border: 0; box-shadow: 0 6px 20px rgba(0,0,0,.06); border-radius: 16px; }
+.card-img-top { object-fit: contain; height: 180px; padding: 12px; }
+.btn { border-radius: 12px; }
+.badge-price { background: #0d6efd; }
+.footer { color:#6c757d; }
+
+/* Hover lift */
+.card:hover { transform: translateY(-2px); transition: all .2s; }
+
+/* Empty state */
+.empty { color:#6c757d; background:#fff; border-radius:16px; padding:40px; text-align:center; }
+
+/* Make product titles tidy */
+.product-title { display:-webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height:48px; }
+
+/* Quantity input nicer */
+input[type="number"] { border-radius: 10px; }
